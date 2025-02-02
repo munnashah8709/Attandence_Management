@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Management</h1>
+
+        <form id="search-form">
+            <div class="left-section">
+                <label>Select Date :</label>
+                <input style="font-size: 25px;" type="date" id="attendance-date" required />
+                <button type="submit">Search</button>
+            </div>
+            <button id="fetch-report">Fetch Attendance Report</button>
+        </form>
+        
+       
+        <div id="report-container"></div>
+       
+        <div id="attendance-form">
+            <!-- Dynamic content will appear here -->
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
